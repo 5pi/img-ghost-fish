@@ -1,4 +1,4 @@
-FROM 5pi/ghost
+FROM fish/ghost
 ENV URL "https://5pi.de"
 
 COPY add_5pi_showdown_extension.patch /tmp
